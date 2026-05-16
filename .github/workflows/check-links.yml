@@ -1,0 +1,37 @@
+name: Check Links
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Make script executable
+        run: chmod +x scripts/check-links.sh
+
+      - name: Run link checker
+        run: bash scripts/check-links.sh
+
+      - name: Commit broken-links report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -f broken-links.md ]; then
+            git add broken-links.md
+            BROKEN=$(grep -c '^\- \[ \]' broken-links.md || echo "0")
+            git commit -m "Update broken-links report (${BROKEN} broken)" || true
+            git push
+          else
+            if git show HEAD --broken-links.md --format="%H" 2>/dev/null | grep -q broken-links; then
+              git rm -f broken-links.md || true
+              git commit -m "Update broken-links report (all links OK)" || true
+              git push
+            fi
+          fi
