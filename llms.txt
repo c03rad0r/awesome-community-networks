@@ -1,0 +1,19 @@
+# awesome-community-networks
+
+> A curated list of community networks, mesh technologies, and grassroots connectivity efforts around the world.
+
+Project orientation for LLMs (see https://llmstxt.org/). Cross-link: AGENTS.md (workflow rules), HANDOVER.md (session state).
+
+## Structure (top file types)
+
+- `.md`: 3 files
+- `.yml`: 1 files
+- `.sh`: 1 files
+
+## Build & test
+
+- Inspect `Makefile` / `package.json` / `Cargo.toml` / `platformio.ini` for the canonical commands.
+
+## Optional
+
+- [README](./README.md): human readme
