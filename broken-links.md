@@ -1,8 +1,8 @@
 # Broken Links Report
 
-Generated: 2026-07-19 02:58 UTC
+Generated: 2026-07-26 03:17 UTC
 
-**5 broken link(s) found** out of 65 total URLs in `README.md`.
+**6 broken link(s) found** out of 65 total URLs in `README.md`.
 
 ## Broken Links
 
@@ -11,6 +11,7 @@ Generated: 2026-07-19 02:58 UTC
 - [ ] `https://www.internetsociety.org/events/summit-community-networks-africa/` - HTTP 403
 - [ ] `https://www.internetsociety.org/resources/community-network-diy-toolkit/understand-community-network-examples/` - HTTP 403
 - [ ] `https://www2.vcn.bc.ca/` - HTTP 403
+- [ ] `https://zenzeleni.net/` - Timeout or DNS failure (000)
 
 ## How to Fix
 
