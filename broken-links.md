@@ -1,13 +1,12 @@
 # Broken Links Report
 
-Generated: 2026-08-23 01:29 UTC
+Generated: 2026-08-30 04:24 UTC
 
-**7 broken link(s) found** out of 65 total URLs in `README.md`.
+**6 broken link(s) found** out of 65 total URLs in `README.md`.
 
 ## Broken Links
 
 - [ ] `https://carc.libre.org.ar/` - Timeout or DNS failure (000)
-- [ ] `https://defindia.org/` - Timeout or DNS failure (000)
 - [ ] `https://www.awmn.net/` - HTTP 403
 - [ ] `https://www.internetsociety.org/events/summit-community-networks-africa/` - HTTP 403
 - [ ] `https://www.internetsociety.org/resources/community-network-diy-toolkit/understand-community-network-examples/` - HTTP 403
