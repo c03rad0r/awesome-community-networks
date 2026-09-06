@@ -1,15 +1,16 @@
 # Broken Links Report
 
-Generated: 2026-08-30 04:24 UTC
+Generated: 2026-09-06 03:36 UTC
 
-**6 broken link(s) found** out of 65 total URLs in `README.md`.
+**7 broken link(s) found** out of 65 total URLs in `README.md`.
 
 ## Broken Links
 
+- [ ] `https://battlemesh.org/` - Timeout or DNS failure (000)
 - [ ] `https://carc.libre.org.ar/` - Timeout or DNS failure (000)
+- [ ] `https://libremesh.org/` - Timeout or DNS failure (000)
+- [ ] `https://rhizomatica.org/` - HTTP 500
 - [ ] `https://www.awmn.net/` - HTTP 403
-- [ ] `https://www.internetsociety.org/events/summit-community-networks-africa/` - HTTP 403
-- [ ] `https://www.internetsociety.org/resources/community-network-diy-toolkit/understand-community-network-examples/` - HTTP 403
 - [ ] `https://www.scn.org/` - HTTP 403
 - [ ] `https://www2.vcn.bc.ca/` - HTTP 403
 
