@@ -1,15 +1,13 @@
 # Broken Links Report
 
-Generated: 2026-09-06 03:36 UTC
+Generated: 2026-09-13 03:53 UTC
 
-**7 broken link(s) found** out of 65 total URLs in `README.md`.
+**5 broken link(s) found** out of 65 total URLs in `README.md`.
 
 ## Broken Links
 
-- [ ] `https://battlemesh.org/` - Timeout or DNS failure (000)
 - [ ] `https://carc.libre.org.ar/` - Timeout or DNS failure (000)
-- [ ] `https://libremesh.org/` - Timeout or DNS failure (000)
-- [ ] `https://rhizomatica.org/` - HTTP 500
+- [ ] `https://coolab.org/` - Timeout or DNS failure (000)
 - [ ] `https://www.awmn.net/` - HTTP 403
 - [ ] `https://www.scn.org/` - HTTP 403
 - [ ] `https://www2.vcn.bc.ca/` - HTTP 403
