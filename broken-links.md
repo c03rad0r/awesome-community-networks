@@ -1,12 +1,13 @@
 # Broken Links Report
 
-Generated: 2026-10-18 03:39 UTC
+Generated: 2026-10-25 03:47 UTC
 
-**4 broken link(s) found** out of 65 total URLs in `README.md`.
+**5 broken link(s) found** out of 65 total URLs in `README.md`.
 
 ## Broken Links
 
 - [ ] `https://carc.libre.org.ar/` - Timeout or DNS failure (000)
+- [ ] `https://defindia.org/` - Timeout or DNS failure (000)
 - [ ] `https://www.awmn.net/` - HTTP 403
 - [ ] `https://www.scn.org/` - HTTP 403
 - [ ] `https://www2.vcn.bc.ca/` - HTTP 403
