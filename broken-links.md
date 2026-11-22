@@ -1,11 +1,12 @@
 # Broken Links Report
 
-Generated: 2026-11-15 05:29 UTC
+Generated: 2026-11-22 05:44 UTC
 
-**5 broken link(s) found** out of 65 total URLs in `README.md`.
+**6 broken link(s) found** out of 65 total URLs in `README.md`.
 
 ## Broken Links
 
+- [ ] `http://wiki.ninux.org/` - Timeout or DNS failure (000)
 - [ ] `https://carc.libre.org.ar/` - Timeout or DNS failure (000)
 - [ ] `https://montelibre.net/` - Timeout or DNS failure (000)
 - [ ] `https://www.awmn.net/` - HTTP 403
